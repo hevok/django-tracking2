@@ -5,7 +5,7 @@ from distutils.command.install import INSTALL_SCHEMES
 import os
 import sys
 
-BASE_PACKAGE = 'tracking'
+BASE_PACKAGE = 'track'
 
 class osx_install_data(install_data):
     # On MacOS, the platform-specific lib dir is /System/Library/Framework/Python/.../
@@ -78,7 +78,7 @@ setup(
     description = 'django-tracking2 tracks the length of time visitors '\
         'and registered users spend on your site',
     license = 'BSD',
-    keywords = 'visitor tracking time analytics',
+    keywords = 'visitor track time analytics',
     url = 'https://github.com/bruth/django-tracking2',
 
     packages = packages,
